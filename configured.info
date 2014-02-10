@@ -1,0 +1,30 @@
+name = Configured
+description = Install Drupal using configuration by Configuration Management.
+version = 1.0-beta1
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = contextual
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+
+; Additional
+dependencies[] = module_filter
+dependencies[] = admin_views
+dependencies[] = admin_menu_toolbar
+dependencies[] = configuration
+
+; Undetected
+dependencies[] = context_condition_theme
