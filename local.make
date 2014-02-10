@@ -118,6 +118,10 @@ projects[configuration][type] = "module"
 projects[configuration][download][type] = "git"
 projects[configuration][download][revision] = "3522a4f6b4b69d98289d6254fc90c4c1f479c513"
 
+projects[configured][type] = "profile"
+projects[configured][download][type] = "git"
+projects[configured][download][url] = "https://github.com/koosh/Configured-Drupal-7-profile.git"
+
 ; CKEditor
 libraries[ckeditor][download][type] = "file"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.6.1/ckeditor_3.6.6.1.tar.gz"
